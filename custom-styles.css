@@ -10,6 +10,10 @@
     background-color: hsl(227, 47%, 96%) !important;
 }
 
+.light-card-bg:hover {
+    background-color: hsl(231, 42%, 91%) !important;
+}
+
 .light-user-text {
     color: hsl(230, 17%, 14%) !important;
     opacity: 0.7 !important;
@@ -30,3 +34,4 @@
 .circle-light {
     background-color: white !important;
 }
+

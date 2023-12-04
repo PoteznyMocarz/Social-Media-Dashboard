@@ -13,22 +13,22 @@
   <link rel="stylesheet" href="custom-styles.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
-<body class="font-Inter bg-dark-bg flex flex-col h-fit items-center pb-[40px] xl:px-[80px] overflow-x-hidden">
+<body class="font-Inter bg-dark-bg flex flex-col h-fit items-center pb-[40px] xl:px-[80px] overflow-x-hidden transition-colors">
 
-  <div class="absolute bg-dark-top-bg w-[100vw] top-0 left-0 p-[30px] pb-[90px] rounded-bl-[20px] rounded-br-[20px] xl:h-[250px] top-bg">
+  <div class="absolute bg-dark-top-bg w-[100vw] top-0 left-0 p-[30px] pb-[90px] rounded-bl-[20px] rounded-br-[20px] xl:h-[250px] top-bg transition-colors">
   <h1 class="text-white text-[25px] font-bold xl:ml-[120px] current-numbers">Social Media Dashboard</h1>
   <span class="mt-2 text-dark-text font-bold text-[14px] opacity-90 xl:ml-[120px] username">Total Followers: 23,004</span>
   <div class="h-[1px] w-full bg-dark-text mt-[15px] opacity-40 xl:hidden"></div>
 <div class="mt-[20px] flex justify-between xl:justify-end xl:mt-[-40px] xl:mr-[120px]">
   <span class="text-dark-text font-bold text-[14px] opacity-90 xl:mr-[20px] username">Dark Mode</span>
   <div id="toggleBtn" class="w-[50px] h-[25px] rounded-[20px] relative bg-gradient-to-r from-dark-toggle-start to-dark-toggle-end cursor-pointer">
-    <div id="circleBtn" class="absolute h-[20px] w-[20px] rounded-[50%] bg-dark-top-bg top-[51%] translate-y-[-50%] left-[3px]"></div>
+    <div id="circleBtn" class="absolute h-[20px] w-[20px] rounded-[50%] transition-all duration-200 bg-dark-top-bg top-[51%] translate-y-[-50%] left-[3px]"></div>
   </div>
 </div>
 </div>
   
 <div class="mt-[190px] grid grid-cols-1 xl:w-[90%] w-[87%] gap-[25px] xl:gap-x-[35px] md:grid-cols-2 lg:grid-cols-4 xl:mt-[150px]">
-  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg">
+  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="absolute w-full bg-facebook-color z-10 h-[5px] top-0"></div>
       <div class="flex">
         <img class="object-cover h-[20px]" src="images/icon-facebook.svg" alt=""> <span class="text-dark-text opacity-90 font-bold text-[15px] ml-2 username">@nathanf</span>
@@ -39,7 +39,7 @@
           <img class="h-[5px] w-[9px] mr-1" src="images/icon-up.svg" alt=""> <span class="text-lime-green font-bold text-[15px]">12 Today</span>
         </div>
   </div>
-  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg">
+  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="absolute w-full bg-twitter-color z-10 h-[5px] top-0"></div>
       <div class="flex">
         <img class="object-cover h-[20px]" src="images/icon-twitter.svg" alt=""> <span class="text-dark-text opacity-90 font-bold text-[15px] ml-2 username">@nathanf</span>
@@ -50,7 +50,7 @@
           <img class="h-[5px] w-[9px] mr-1" src="images/icon-up.svg" alt=""> <span class="text-lime-green font-bold text-[15px]">99 Today</span>
         </div>
   </div>
-  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg">
+  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="absolute w-full bg-gradient-to-r from-instagram-color-start to-instagram-color-end z-10 h-[5px] top-0"></div>
       <div class="flex">
         <img class="object-cover h-[20px]" src="images/icon-instagram.svg" alt=""> <span class="text-dark-text opacity-90 font-bold text-[15px] ml-2 username">@realnathanf</span>
@@ -61,7 +61,7 @@
           <img class="h-[5px] w-[9px] mr-1" src="images/icon-up.svg" alt=""> <span class="text-lime-green font-bold text-[15px]">1099 Today</span>
         </div>
   </div>
-  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg">
+  <div class="rounded-[5px] overflow-hidden bg-dark-card-bg relative flex flex-col py-[30px] items-center card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="absolute w-full bg-youtube-color z-10 h-[5px] top-0"></div>
       <div class="flex">
         <img class="object-cover h-[20px]" src="images/icon-youtube.svg" alt=""> <span class="text-dark-text opacity-90 font-bold text-[15px] ml-2 username">Nathan F.</span>
@@ -76,7 +76,7 @@
 
   <h2 class="text-white font-bold text-[25px] self-start ml-[13px] mt-[30px] mb-[20px] md:ml-[49px] xl:ml-[89px] xl:text-[30px] xl:mt-[50px] xl:mb-[35px] username">Overview - Today</h2>
 <div class="grid grid-cols-1 w-[87%] xl:w-[90%] gap-[20px] xl:gap-x-[35px] xl:gap-y-[30px] md:grid-cols-2 xl:grid-cols-4">
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Page Views</span> <img class="object-cover h-[20px]" src="images/icon-facebook.svg" alt="">
     </div>
@@ -89,7 +89,7 @@
     </div>
   </div>
 
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Likes</span> <img class="object-cover h-[20px]" src="images/icon-facebook.svg" alt="">
     </div>
@@ -102,7 +102,7 @@
     </div>
   </div>
 
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Likes</span> <img class="object-cover h-[20px]" src="images/icon-instagram.svg" alt="">
     </div>
@@ -115,7 +115,7 @@
     </div>
   </div>
 
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Profile Views</span> <img class="object-cover h-[20px]" src="images/icon-instagram.svg" alt="">
     </div>
@@ -128,7 +128,7 @@
     </div>
   </div>
 
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Retweets</span> <img class="object-cover h-[20px]" src="images/icon-twitter.svg" alt="">
     </div>
@@ -141,7 +141,7 @@
     </div>
   </div>
 
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Likes</span> <img class="object-cover h-[20px]" src="images/icon-twitter.svg" alt="">
     </div>
@@ -154,7 +154,7 @@
     </div>
   </div>
 
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Likes</span> <img class="object-cover h-[20px]" src="images/icon-youtube.svg" alt="">
     </div>
@@ -167,7 +167,7 @@
     </div>
   </div>
 
-  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg">
+  <div class="bg-dark-card-bg rounded-[5px] px-[25px] py-[23px] w-full card-bg transition-colors hover:bg-dark-card-hover hover:transition-all hover:duration-100 cursor-pointer">
     <div class="flex items-center justify-between">
       <span class="text-dark-text font-bold opacity-90 text-[16px] username">Total Views</span> <img class="object-cover h-[20px]" src="images/icon-youtube.svg" alt="">
     </div>

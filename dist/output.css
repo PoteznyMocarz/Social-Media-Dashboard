@@ -550,28 +550,16 @@ video {
   left: 3px;
 }
 
+.left-\[54\%\] {
+  left: 54%;
+}
+
 .top-0 {
   top: 0px;
 }
 
 .top-\[51\%\] {
   top: 51%;
-}
-
-.left-\[85\%\] {
-  left: 85%;
-}
-
-.left-\[75\%\] {
-  left: 75%;
-}
-
-.left-\[55\%\] {
-  left: 55%;
-}
-
-.left-\[54\%\] {
-  left: 54%;
 }
 
 .z-10 {
@@ -913,6 +901,37 @@ video {
 
 .opacity-90 {
   opacity: 0.9;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.hover\:bg-dark-card-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(229 26% 33% / var(--tw-bg-opacity));
+}
+
+.hover\:transition-all:hover {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:duration-100:hover {
+  transition-duration: 100ms;
 }
 
 @media (min-width: 768px) {
